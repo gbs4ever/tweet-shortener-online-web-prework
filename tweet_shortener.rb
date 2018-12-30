@@ -21,7 +21,6 @@ def  word_substituter (string)
 #  words.include?(word)
 #  word.gsub(dictionary)
 # delete_if  iclude?() .select
-re = Regexp.union(dictionary.keys)
-string.gsub(re,dictionary)
+string.gsub(/[a-z]/,dictionary)
 
 end
