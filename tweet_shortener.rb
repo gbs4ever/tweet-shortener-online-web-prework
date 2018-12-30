@@ -22,5 +22,5 @@ arraytw.collect! do  |word|
 #  word.gsub(dictionary)
 # delete_if  iclude?() .select
 #string.gsub(/./,dictionary)
-
+end
 end
