@@ -23,5 +23,5 @@ arraytw.gsub(re,words)
 #  word.gsub(dictionary)
 # delete_if  iclude?() .select
 
-end
+
 end
