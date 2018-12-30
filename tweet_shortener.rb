@@ -29,5 +29,5 @@ end
 update =array.each  do  |tweets|
 word_substituter(tweets)
 end
-puts update 
+puts update
 end
