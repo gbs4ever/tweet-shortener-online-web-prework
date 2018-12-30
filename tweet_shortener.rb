@@ -19,7 +19,8 @@ arraytw =string.split(" ")
 arraytw.collect! {  |word|
  words.include?(word)}
  arraytw.join( )
+ end
 return  arraytw
 
-end
+
 end
