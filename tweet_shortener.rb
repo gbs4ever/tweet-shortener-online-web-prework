@@ -25,9 +25,9 @@ string.split.collect do |word|
 #return  arraytw
 end.join(" ")
 end
-puts def bulk_tweet_shortener(array)
-array.each  do  |tweets|
+ def bulk_tweet_shortener(array)
+update =array.each  do  |tweets|
 word_substituter(tweets)
 end
-
+puts update 
 end
