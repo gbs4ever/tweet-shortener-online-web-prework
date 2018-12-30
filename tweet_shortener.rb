@@ -17,8 +17,7 @@ def  word_substituter (string)
 arraytw =string.split(" ")
 
 
-  arraytw.collect!{  |word|
- words.include?(word)}
+  arraytw.collect!{  |word| words.include?(word)}
 
 #arraytw =arraytw.join( )
 
