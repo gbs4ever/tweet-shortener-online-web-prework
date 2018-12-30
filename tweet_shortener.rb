@@ -28,5 +28,5 @@ end
 def bulk_tweet_shortener(array)
 string=array.join(" ")
   answer =word_substituter(string)
-puts answer
+answer
 end
