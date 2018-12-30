@@ -16,12 +16,14 @@ def  word_substituter (string)
   words=dictionary.keys
 arraytw =string.split(" ")
 
-arraytw.collect! {  |word|
+
+  arraytw.collect!{  |word|
  words.include?(word)}
+
 #arraytw =arraytw.join( )
 
 
-return  arraytw
+#return  arraytw
 
 end
 end
