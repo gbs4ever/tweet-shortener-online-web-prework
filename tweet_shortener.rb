@@ -25,4 +25,3 @@ arraytw =string.split(" ")
 #return  arraytw
 
 end
-
