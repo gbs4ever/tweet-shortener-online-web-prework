@@ -15,7 +15,8 @@ end
 def  word_substituter (string)
   words=dictionary.keys
 arraytw =string.split(" ")
-
+re = Regexp.union(words)
+arraytw.gsub(re,words)
 #if words.include?(string) == true
 arraytw.each do  |word|
    words.include?(word)
