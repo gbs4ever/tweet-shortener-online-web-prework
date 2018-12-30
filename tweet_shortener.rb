@@ -29,5 +29,5 @@ end
 array.collect  do  |tweets|
 word_substituter(tweets)
 end
-puts update
+puts array
 end
