@@ -15,15 +15,14 @@ end
 def  word_substituter (string)
   words = dictionary.keys
 #arraytw =string.split(" ")
-string.split.collect do |word| 
+string.split.collect do |word|
   if words.include?(word)
     word = dictionary[word]
   else
     word
   end
-#arraytw =arraytw.join( 
+#arraytw =arraytw.join()
 #return  arraytw
 end.join(" ")
 
 end
-
