@@ -43,9 +43,9 @@ else
    strings
 end
 end
-def shortened_tweet_truncator(string)
-  if string.length > 140
-    puts newstring   = string[0..140]
+def shortened_tweet_truncator(longtweet)
+  if longtweet.length > 140
+    puts newstring   = longtweet[0..140]
 else
   string
   end
