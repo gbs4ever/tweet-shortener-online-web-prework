@@ -25,15 +25,16 @@ string.split.collect do |word|
 #return  arraytw
 end.join(" ")
 end
- def bulk_tweet_shortener
+ def bulk_tweet_shortener(array)
 array.collect  do  |tweets|
-word_substituter(tweets)
+puts word_substituter(tweets)
 end
-puts array
+
 end
 
 
 def selective_tweet_shortener(string)
-  if string.length
+  if string.length  
 end
 end
+
