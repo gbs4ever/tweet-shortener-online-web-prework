@@ -20,7 +20,7 @@ arraytw.collect! {  |word|
  words.include?(word)}
 arraytw =arraytw.join( )
 
- end
+
 return  arraytw
 
 end
