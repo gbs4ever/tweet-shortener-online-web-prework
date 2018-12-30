@@ -34,7 +34,6 @@ end
 
 
 def selective_tweet_shortener(string)
-  if string.length  
+  if string.length
 end
 end
-
