@@ -45,7 +45,7 @@ end
 end
 def shortened_tweet_truncator(longtweet)
   if longtweet.length > 140
- newstring   = longtweet[0..140]
+ newstring   = longtweet[0..139]
 else
   longtweet
   end
