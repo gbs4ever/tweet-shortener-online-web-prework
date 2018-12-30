@@ -13,14 +13,14 @@ hashs = { "hello" => "hi","to"=> "2",
 end
 
 def  word_substituter (string)
-  #words=dictionary.keys
+#  words=dictionary.keys
 #arraytw =string.split(" ")
 
 #if words.include?(string) == true
 #arraytw.each do  |word|
-#  words.include?(word)
+ #words.include?(word)
 #  word.gsub(dictionary)
 # delete_if  iclude?() .select
-string.gsub(/[a-z]/,dictionary)
+string.gsub(/./,dictionary)
 
 end
