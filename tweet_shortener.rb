@@ -16,11 +16,9 @@ def  word_substituter (string)
   words=dictionary.keys
 arraytw =string.split(" ")
 
-#if words.include?(string) == true
 arraytw.collect! do  |word|
  words.include?(word)
-#  word.gsub(dictionary)
-# delete_if  iclude?() .select
-#string.gsub(/./,dictionary)
+
+
 end
 end
